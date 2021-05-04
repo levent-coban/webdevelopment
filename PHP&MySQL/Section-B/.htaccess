@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI}  !(\.png|\.css|\.svg|\.js)$
+RewriteRule (.*) controller.php [QSA,L] 
